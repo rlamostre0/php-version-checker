@@ -5,6 +5,13 @@ Version checker for php made API
 
 ###### Function checkVersion() would result to true if current version is less than required version.
 
+String version formats allowed
+- 2
+- 2.0
+- 2.0.0
+- 22.22.22
+- 222.222.222
+
 ## Usage:
 ```
 include 'VersionChecker.php';
